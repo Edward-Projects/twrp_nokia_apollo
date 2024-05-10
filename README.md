@@ -11,7 +11,7 @@ Sync TWRP manifest:
 repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
 ```
 
-Make a directory named local_manifest under .repo, and create a new manifest file, for example local_manifests.xml
+Make a directory named `local_manifest` under the existing subdirectory `.repo`, and create a new manifest file, for example `local_manifests.xml`
 and then paste the following
 
 ```xml
@@ -51,7 +51,7 @@ to advanced menu and select Flash Current TWRP option.
 
 ```
 #
-# Copyright (C) 2022 The Android Open Source Project
+# Copyright (C) 2024 The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
