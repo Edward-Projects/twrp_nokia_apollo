@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/miami
+DEVICE_PATH := device/nokia/apollo
 
 # Architecture
 TARGET_ARCH := arm64
@@ -22,7 +22,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := miami
+TARGET_BOOTLOADER_BOARD_NAME := apollo
 TARGET_NO_BOOTLOADER := true
 
 # Kernel

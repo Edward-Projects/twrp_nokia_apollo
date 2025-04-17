@@ -8,16 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Inherit from miami device
-$(call inherit-product, device/motorola/miami/device.mk)
+# Inherit from apollo device
+$(call inherit-product, device/nokia/apollo/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_miami
-PRODUCT_DEVICE := miami
-PRODUCT_MANUFACTURER := motorola
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := edge 30 neo
+PRODUCT_NAME := twrp_apollo
+PRODUCT_DEVICE := apollo
+PRODUCT_MANUFACTURER := hmd
+PRODUCT_BRAND := Nokia
+PRODUCT_MODEL := Nokia G60 5G
 

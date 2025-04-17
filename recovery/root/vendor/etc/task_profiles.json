@@ -393,7 +393,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": "background"
+            "Path": "low_io"
           }
         }
       ]
@@ -406,7 +406,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "normal_io"
           }
         }
       ]
@@ -419,7 +419,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "hight_io"
           }
         }
       ]
@@ -432,7 +432,7 @@
           "Params":
           {
             "Controller": "blkio",
-            "Path": ""
+            "Path": "top_io"
           }
         }
       ]
@@ -445,7 +445,7 @@
           "Name": "SetTimerSlack",
           "Params":
           {
-            "Slack": "10000000"
+            "Slack": "40000000"
           }
         }
       ]
