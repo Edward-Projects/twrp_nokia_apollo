@@ -12,7 +12,6 @@
 /modemst1               emmc            /dev/block/bootdevice/by-name/modemst1          flags=backup=1;flashimg=1
 /modemst2               emmc            /dev/block/bootdevice/by-name/modemst2          flags=backup=1;flashimg=1
 /persist                emmc            /dev/block/bootdevice/by-name/persist           flags=backup=1;flashimg=1
-/prodpersist            emmc            /dev/block/bootdevice/by-name/prodpersist       flags=backup=1;flashimg=1
 
 # Logical partitions
 /product		ext4		product						flags=display=Product
