@@ -35,3 +35,7 @@ From Nokia/Apollo_00WW/APO_sprout:14/UKQ1.231003.002/00WW_3_230:user/release-key
 - Decryption (With Password, If you didn't set password, it will work.)
 
 ### See Wiki for build this source
+
+## Credits
+- [TWRP](https://twrp.me)
+- [TWRP device tree of Motorola edge 30 neo](https://github.com/Motorola-Miami/twrp_device_motorola_miami)
